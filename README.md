@@ -51,12 +51,14 @@
 
 ## **📊 Data Exploration**
 
-**Describe:**
-
 * The dataset we used was provided by the Kaggle Competition. There are about 4500 images in this set, representing 21 skin conditions (eczema, acne-vulgaris, melanoma, etc). 
 
-* Data exploration and preprocessing approaches
-* Challenges and assumptions when working with the dataset(s)
+* To explore the data we first charted the distribution of the 21 classes, to see if there was an imbalance we had to address. We also looked over a few sample images from every class so we could get a feel for how similar the images were to each other. 
+
+* During our preprocessing, we rotated all of the images to get more training data. 
+
+* Some challenges we faced related to the data was that many of the conditions look similar to other conditions and that the same conditions can appear to look extremely different on different skin tones, so we were not sure how our model would work around this.
+
 
 **Sample Dataset Images**
 
@@ -72,9 +74,6 @@ First image shows an example of acne, second shows superficial spreading melanom
 ---
 
 ## **🧠 Model Development**
-
-**Describe (as applicable):**
-
 
 Our model is a CNN that is specifically designed for image classficiation. Using TensorFlow and Keras, we created a sequential model in which the input layer is an image of size 128x128. There are then three convolutional layers that are all followed by a ma-pooling layer. The first layer used 32 filters with ReLU activation. The second and third layers use more filters. A flatten layer then converts the 3D tensor output into a 1D vector which is then passed to a dense layer with ReLU activation as well. The last layer output is a probability distribution over these classes.
 
@@ -101,8 +100,6 @@ Performance metrics we used was our F-1 score which was also what our Kaggle Lea
 ---
 
 ## **🖼️ Impact Narrative**
-
-**Answer the relevant questions below based on your competition:**
 
 **AJL challenge:**
 
