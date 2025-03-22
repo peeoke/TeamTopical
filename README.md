@@ -5,9 +5,10 @@
 
 | Name | GitHub Handle | Contribution |
 | ----- | ----- | ----- |
-| Alice Doe | @AliceDoe | Built CNN model, performed data augmentation |
-| Mel Ramakrishnan | @MelRam | Led EDA, visualized dataset distributions, handled missing data |
-| Charlie Nguyen | @CharlieN | Implemented explainability tools |
+| Makayla Kienlen | @makaylakienlen | [contribution] |
+| Maria Sophia Sanchez | @marias65 | [contribution] |
+| Roma Solapurkar | @rsol1225 | [contribution] |
+| Ysabella Dela Cruz | @peeoke | [contribution] |
 
 ---
 
