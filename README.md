@@ -42,9 +42,11 @@
 
 **Describe:**
 
-* The Kaggle competition and its connection to the Break Through Tech AI Program
-* The objective of the challenge
-* The real-world significance of the problem and the potential impact of your work
+* Break Through Tech’s mission is to create an inclusive space for people from historically underrepresented backgrounds to gain experience in tech. This Kaggle competition aims to reduce bias in AI models aimed at identifying skin conditions. This competition allows for BTT students to use ML skills they have developed as a team in a competitive environment, with real world impact in creating more equality in the use of AI tools in healthcare.
+  
+* The goal of this Kaggle competition is to train a model that can classify 21 different skin conditions across diverse skin tones.
+  
+* AI is transforming healthcare, yet dermatology AI tools often underperform for people with darker skin tones due to a lack of diverse training data. This can lead to diagnostic errors, delayed treatments, and health disparities for underserved communities. Our goal of creating an AI model that can fairly identify conditions on any skin tone shows that it is possible to overcome biases on AI models. Many industries benefit from AI tools, but it is important to make sure that any biases don’t impact customer experience. In the case of the healthcare industry, AI’s inability to correctly identify skin conditions on darker skin could cause health issues and people’s overall quality of life to worsen.
 
 ---
 
