@@ -95,7 +95,7 @@ The dataset we used was provided by the Kaggle Competition. There are about 4500
 Our model is a CNN that is specifically designed for image classficiation. Using TensorFlow and Keras, we created a sequential model in which the input layer is an image of size 128x128. There are then three convolutional layers that are all followed by a ma-pooling layer. The first layer used 32 filters with ReLU activation. The second and third layers use more filters. A flatten layer then converts the 3D tensor output into a 1D vector which is then passed to a dense layer with ReLU activation as well. The last layer ourput is a probability distribution over these classes.
 
 The following is a visual representation of the layers in our model:
-
+![alt text](https://github.com/peeoke/TeamTopical/blob/main/image.png)
 
 
 
