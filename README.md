@@ -5,7 +5,7 @@
 
 | Name | GitHub Handle | Contribution |
 | ----- | ----- | ----- |
-| Makayla Kienlen | @mkienlen | [contribution] |
+| Makayla Kienlen | @mkienlen | Built CNN, helped optimize model |
 | Maria Sofia Sanchez | @marias65 | EDA, preprocessing and loading of dataset |
 | Roma Solapurkar | @rsol1225 | [contribution] |
 | Ysabella Dela Cruz | @peeoke | [contribution] |
@@ -41,17 +41,11 @@
 
 **Describe:**
 
-* The Kaggle competition and its connection to the Break Through Tech AI Program
+* Break Through Tech’s mission is to create an inclusive space for people from historically underrepresented backgrounds to gain experience in tech. This Kaggle competition aims to reduce bias in AI models aimed at identifying skin conditions. This competition allows for BTT students to use ML skills they have developed as a team in a competitive environment, with real world impact in creating more equality in the use of AI tools in healthcare.
 
-Break Through Tech’s mission is to create an inclusive space for people from historically underrepresented backgrounds to gain experience in tech. This Kaggle competition aims to reduce bias in AI models aimed at identifying skin conditions. This competition allows for BTT students to use ML skills they have developed as a team in a competitive environment, with real world impact in creating more equality in the use of AI tools in healthcare.
+* The goal of this Kaggle competition is to train a model that can classify 21 different skin conditions across diverse skin tones. 
 
-* The objective of the challenge
-
-The goal of this Kaggle competition is to train a model that can classify 21 different skin conditions across diverse skin tones. 
-
-* The real-world significance of the problem and the potential impact of your work
-
-AI is transforming healthcare, yet dermatology AI tools often underperform for people with darker skin tones due to a lack of diverse training data. This can lead to diagnostic errors, delayed treatments, and health disparities for underserved communities. Our goal of creating an AI model that can fairly identify conditions on any skin tone shows that it is possible to overcome biases on AI models. Many industries benefit from AI tools, but it is important to make sure that any biases don’t impact customer experience. In the case of the healthcare industry, AI’s inability to correctly identify skin conditions on darker skin could cause health issues and people’s overall quality of life to worsen.
+* AI is transforming healthcare, yet dermatology AI tools often underperform for people with darker skin tones due to a lack of diverse training data. This can lead to diagnostic errors, delayed treatments, and health disparities for underserved communities. Our goal of creating an AI model that can fairly identify conditions on any skin tone shows that it is possible to overcome biases on AI models. Many industries benefit from AI tools, but it is important to make sure that any biases don’t impact customer experience. In the case of the healthcare industry, AI’s inability to correctly identify skin conditions on darker skin could cause health issues and people’s overall quality of life to worsen.
 
 ---
 
@@ -59,45 +53,33 @@ AI is transforming healthcare, yet dermatology AI tools often underperform for p
 
 **Describe:**
 
-* The dataset(s) used (i.e., the data provided in Kaggle \+ any additional sources)
-
-The dataset we used was provided by the Kaggle Competition. There are about 4500 images in this set, representing 21 skin conditions (eczema, acne-vulgaris, melanoma, etc). 
+* The dataset we used was provided by the Kaggle Competition. There are about 4500 images in this set, representing 21 skin conditions (eczema, acne-vulgaris, melanoma, etc). 
 
 * Data exploration and preprocessing approaches
 * Challenges and assumptions when working with the dataset(s)
 
-**Potential visualizations to include:**
+**Sample Dataset Images**
 
+![](https://github.com/peeoke/TeamTopical/blob/main/2dc81d23b3c02663556832138db7d3d0.jpg)
+![](https://github.com/peeoke/TeamTopical/blob/main/39db1b5308e58e1e486703dcb53b33ee.jpg)
 
-* Plots, charts, heatmaps, feature visualizations, sample dataset images
+First image shows an example of acne, second shows superficial spreading melanoma.
+
+**Class Distribution Chart**
+
+![](https://github.com/peeoke/TeamTopical/blob/main/LabelDistribution.jpeg)
 
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ## **🧠 Model Development**
 
 **Describe (as applicable):**
 
 
-Our model is a CNN that is specifically designed for image classficiation. Using TensorFlow and Keras, we created a sequential model in which the input layer is an image of size 128x128. There are then three convolutional layers that are all followed by a ma-pooling layer. The first layer used 32 filters with ReLU activation. The second and third layers use more filters. A flatten layer then converts the 3D tensor output into a 1D vector which is then passed to a dense layer with ReLU activation as well. The last layer ourput is a probability distribution over these classes.
+Our model is a CNN that is specifically designed for image classficiation. Using TensorFlow and Keras, we created a sequential model in which the input layer is an image of size 128x128. There are then three convolutional layers that are all followed by a ma-pooling layer. The first layer used 32 filters with ReLU activation. The second and third layers use more filters. A flatten layer then converts the 3D tensor output into a 1D vector which is then passed to a dense layer with ReLU activation as well. The last layer output is a probability distribution over these classes.
 
 The following is a visual representation of the layers in our model:
 ![alt text](https://github.com/peeoke/TeamTopical/blob/main/image.png)
-
-
 
 ---
 
