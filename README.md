@@ -5,7 +5,7 @@
 
 | Name | GitHub Handle | Contribution |
 | ----- | ----- | ----- |
-| Makayla Kienlen | @makaylakienlen | [contribution] |
+| Makayla Kienlen | @mkienlen | [contribution] |
 | Maria Sophia Sanchez | @marias65 | [contribution] |
 | Roma Solapurkar | @rsol1225 | [contribution] |
 | Ysabella Dela Cruz | @peeoke | [contribution] |
@@ -54,13 +54,22 @@
 
 **Describe:**
 
-* The dataset(s) used (i.e., the data provided in Kaggle \+ any additional sources)
+* The dataset we used was provided by the Kaggle Competition. There are about 4500 images in this set, representing 21 skin conditions (eczema, acne-vulgaris, melanoma, etc). 
+
 * Data exploration and preprocessing approaches
+  
 * Challenges and assumptions when working with the dataset(s)
 
 **Potential visualizations to include:**
 
 * Plots, charts, heatmaps, feature visualizations, sample dataset images
+
+**Sample Dataset Images:**
+
+![image of girl's forehead with acne](https://github.com/peeoke/TeamTopical/blob/main/2dc81d23b3c02663556832138db7d3d0.jpg?raw=true)
+![close up of a mole](https://github.com/peeoke/TeamTopical/blob/main/39db1b5308e58e1e486703dcb53b33ee.jpg?raw=true)
+
+The above showcases two sample images from our training dataset, with the first representing acne and the second representing superficial spreading melanoma.
 
 ---
 
