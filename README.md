@@ -7,8 +7,8 @@
 | ----- | ----- | ----- |
 | Makayla Kienlen | @mkienlen | Built CNN, helped optimize model |
 | Maria Sofia Sanchez | @marias65 | EDA, preprocessing and loading of dataset |
-| Roma Solapurkar | @rsol1225 | [contribution] |
-| Ysabella Dela Cruz | @peeoke | [contribution] |
+| Roma Solapurkar | @rsol1225 | Finetuned model |
+| Ysabella Dela Cruz | @peeoke | Finetuned model |
 
 ---
 
@@ -27,19 +27,13 @@
 
 **Provide step-by-step instructions so someone else can run your code and reproduce your results. Depending on your setup, include:**
 
-* How to clone the repository
-* How to install dependencies
-	pip install pandas numpy scikit-learn tensorflow
+* To run the notebook, install the following: pip install pandas numpy scikit-learn tensorflow
 
-* How to set up the environment
-* How to access the dataset(s)
-* How to run the notebook or scripts
-
+* The dataset is availiable through the kaggle competitions
+  
 ---
 
 ## **🏗️ Project Overview**
-
-**Describe:**
 
 * Break Through Tech’s mission is to create an inclusive space for people from historically underrepresented backgrounds to gain experience in tech. This Kaggle competition aims to reduce bias in AI models aimed at identifying skin conditions. This competition allows for BTT students to use ML skills they have developed as a team in a competitive environment, with real world impact in creating more equality in the use of AI tools in healthcare.
 
@@ -84,18 +78,7 @@ The following is a visual representation of the layers in our model:
 
 ## **📈 Results & Key Findings**
 
-**Describe (as applicable):**
-
-* Performance metrics (e.g., Kaggle Leaderboard score, F1-score)
-* How your model performed overall
-* How your model performed across different skin tones (AJL)
-* Insights from evaluating model fairness (AJL)
-
-**Potential visualizations to include:**
-
-* Confusion matrix, precision-recall curve, feature importance plot, prediction distribution, outputs from fairness or explainability tools
-
-Performance metrics we used was our F-1 score which was also what our Kaggle Leaderboard score was based off of. Overall, our model has an F-1 score of XXX. 
+Performance metrics we used was our F-1 score which was also what our Kaggle Leaderboard score was based off of. Overall, our model has an F-1 score of 0.28933. 
 
 ---
 
@@ -126,9 +109,6 @@ Some limitations of our model include the limits that our own dataset is subject
 
 
 ---
-
-## **📄 References & Additional Resources**
-
 * Cite any relevant papers, articles, or tools used in your project
 
 ---
