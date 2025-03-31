@@ -107,10 +107,3 @@ Our work could greatly assist the dermatology industry by allowing researchers a
 
 Some limitations of our model include the limits that our own dataset is subjected to such as representation of certain skin conditions and skin colors. Skin conditions or skin colors that are not included in this dataset are not able to be predicted by our model. With more time and resources, our team would like to spend more time trying different types of models on the dataset. Some examples include decision trees, SVMs, random forest, and k-nearest neighbors. Additionally, we would also like to spend more time on output interpretation and visualization. By doing this, we would be able to better understand what our model is representing and how we could further improve our model. 
 
-
----
-* Cite any relevant papers, articles, or tools used in your project
-
----
-
-
